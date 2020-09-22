@@ -21,7 +21,62 @@
 <script src="assets/vendor/typed.js/typed.min.js"></script>
 <script src="assets/vendor/aos/aos.js"></script>
 
+<style>
+  
+.inline {
+  display: inline-block;
+}
+.skills-block-inner {
+  border: 1px solid rgba(173,164,173,1);
+  height:300px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(173,164,173,1)!important;
+-moz-box-shadow: 10px 10px 5px 0px rgba(173,164,173,1)!important;
+box-shadow: 10px 10px 5px 0px rgba(173,164,173,1)!important;
+}
+.hrclass {
+  color:black;
+}
 
+
+.flip-card {
+  background-color: white;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;/*#040b14*/
+  color: white;
+  transform: rotateY(180deg);
+}
+</style>
 <!-- Template Main JS File -->
 <script src="assets/js/main.js"></script>
   <!-- Favicons -->

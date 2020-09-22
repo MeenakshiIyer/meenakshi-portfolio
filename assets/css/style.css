@@ -1,9 +1,3 @@
-/**
-* Template Name: iPortfolio - v1.4.0
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -25,59 +19,7 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
-.inline {
-  display: inline-block;
-}
-.skills-block-inner {
-  border: 1px solid rgba(173,164,173,1);
-  height:300px;
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(173,164,173,1)!important;
--moz-box-shadow: 10px 10px 5px 0px rgba(173,164,173,1)!important;
-box-shadow: 10px 10px 5px 0px rgba(173,164,173,1)!important;
-}
-.hrclass {
-  color:black;
-}
-/* Flip card*/
 
-.flip-card {
-  background-color: white;
-  width: 300px;
-  height: 300px;
-  perspective: 1000px;
-}
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
-
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-.flip-card-front {
-  background-color: #bbb;
-  color: black;
-}
-
-.flip-card-back {
-  background-color: #2980b9;/*#040b14*/
-  color: white;
-  transform: rotateY(180deg);
-}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
