@@ -8,81 +8,87 @@
   <title>Meenakshi - Portfolio</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
-<!-- Vendor JS Files -->
+  <!-- Vendor JS Files -->
 
 
-<style>
-  
-.inline {
-  display: inline-block;
-}
-.skills-block-inner {
-  border: 1px solid rgba(173,164,173,1);
-  height:300px;
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(173,164,173,1)!important;
--moz-box-shadow: 10px 10px 5px 0px rgba(173,164,173,1)!important;
-box-shadow: 10px 10px 5px 0px rgba(173,164,173,1)!important;
-}
-.hrclass {
-  border-color:darkgrey;
-}
-.skills-icon-holder{
-  border: 1px solid darkgrey;
-    height: 139px;
-    padding-top: 25%;
-}
+  <style>
+    .inline {
+      display: inline-block;
+    }
+
+    .skills-block-inner {
+      border: 1px solid rgba(173, 164, 173, 1);
+      height: 300px;
+      -webkit-box-shadow: 10px 10px 5px 0px rgba(173, 164, 173, 1) !important;
+      -moz-box-shadow: 10px 10px 5px 0px rgba(173, 164, 173, 1) !important;
+      box-shadow: 10px 10px 5px 0px rgba(173, 164, 173, 1) !important;
+    }
+
+    .hrclass {
+      border-color: darkgrey;
+    }
+
+    .skills-icon-holder {
+      border: 1px solid darkgrey;
+      height: 139px;
+      padding-top: 25%;
+    }
 
 
-.flip-card {
-  background-color: white;
-  width: 300px;
-  height: 300px;
-  perspective: 1000px;
-}
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
+    .flip-card {
+      background-color: white;
+      width: 300px;
+      height: 300px;
+      perspective: 1000px;
+    }
 
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
+    .flip-card-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 0.6s;
+      transform-style: preserve-3d;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
 
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
+    .flip-card:hover .flip-card-inner {
+      transform: rotateY(180deg);
+    }
 
-.flip-card-front {
-  background-color: #bbb;
-  color: black;
-}
+    .flip-card-front,
+    .flip-card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+    }
 
-.flip-card-back {
-  background-color: #2980b9;/*#040b14*/
-  color: white;
-  transform: rotateY(180deg);
-}
+    .flip-card-front {
+      background-color: #bbb;
+      color: black;
+    }
 
-#about {
-  padding: 10px!important;
-}
-</style>
+    .flip-card-back {
+      background-color: #2980b9;
+      /*#040b14*/
+      color: white;
+      transform: rotateY(180deg);
+    }
+
+    #about {
+      padding: 10px !important;
+    }
+  </style>
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
     rel="stylesheet">
 
   <!-- Vendor CSS Files -->
@@ -96,14 +102,14 @@ box-shadow: 10px 10px 5px 0px rgba(173,164,173,1)!important;
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-  
+
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
     gtag('config', 'UA-179154054-1');
-    </script>
+  </script>
 </head>
 
 <body>
@@ -118,7 +124,7 @@ box-shadow: 10px 10px 5px 0px rgba(173,164,173,1)!important;
     <div class="d-flex flex-column">
 
       <div class="profile">
-      <h1 class="text-light mt-4">
+        <h1 class="text-light mt-4">
           <a href="index.html">Meenakshi Iyer</a>
         </h1>
         <div class="social-links mt-3 text-center">
@@ -151,11 +157,11 @@ box-shadow: 10px 10px 5px 0px rgba(173,164,173,1)!important;
               <span>Resume</span>
             </a>
           </li>
-         <li>
+          <li>
             <a href="#portfolio">
               <i class="bx bx-book-content"></i> Portfolio</a>
           </li>
-           <!-- <li>
+          <!-- <li>
             <a href="#services">
               <i class="bx bx-server"></i> Services</a>
           </li> -->
@@ -210,12 +216,14 @@ box-shadow: 10px 10px 5px 0px rgba(173,164,173,1)!important;
               A curious head who constantly keeps learning and experimenting new stuffs.
             </p>
             <p>
-              I have more than 9 years' experience building rich web applications for clients all over the world. Below is a quick overview
-              of my main technical skill sets and tools I use. If you are interested in hiring me for your project please
+              I have more than 10 years' experience building rich web applications for clients all over the world. Below
+              is a quick overview
+              of my main technical skill sets and tools I use. If you are interested in hiring me for your project
+              please
               use the form below to get in touch. Want to know how I work and what I can offer? Check out my
-              <a
-              target="_blank" href="https://github.com/MeenakshiIyer">project case studies</a> and
-              <a  target="_blank" href="https://drive.google.com/file/d/1018Jsp03tJbAixU-CsunqsubpxImwl4y/view?usp=sharing">resume.</a>
+              <a target="_blank" href="https://github.com/MeenakshiIyer">project case studies</a> and
+              <a target="_blank"
+                href="https://drive.google.com/file/d/1oDlcmkybfH8TDLP9wZnHutpDX2SxQrUg/view?usp=sharing">resume.</a>
             </p>
           </div>
         </div>
@@ -226,7 +234,8 @@ box-shadow: 10px 10px 5px 0px rgba(173,164,173,1)!important;
     <section class="">
       <div class=" mx-5 section-title">
         <h2>Skills</h2>
-        <p>From Web Components and UI/UX animations to angular, javascript, and Node.JS. Check out my latest web software development
+        <p>From Web Components and UI/UX animations to angular, javascript, and Node.JS. Check out my latest web
+          software development
           portfolio projects.</p>
       </div>
       <div class="text-center">
@@ -239,7 +248,8 @@ box-shadow: 10px 10px 5px 0px rgba(173,164,173,1)!important;
                 </h4>
                 <hr class="hrclass" />
                 <div class="skills-icon-holder d-inline-block text-center col-sm-12 col-xs-12">
-                  <img class="skills-icon text-center mx-5  mb-3" src="assets/img/frontend-icon.png" style="width:50px;">
+                  <img class="skills-icon text-center mx-5  mb-3" src="assets/img/frontend-icon.png"
+                    style="width:50px;">
                 </div>
               </div>
             </div>
@@ -354,59 +364,59 @@ box-shadow: 10px 10px 5px 0px rgba(173,164,173,1)!important;
             </div>
             <h3 class="resume-title">Professional Experience</h3>
             <div class="resume-item">
-                <h4>TCS - Full stack developer</h4>
-                <h5>2019 - Present</h5>
-                <p>
-                  <em>UI Lead - Advanced Viewer</em>
-                </p>
-                <ul>
-                    Xtrac is a document management tool which assists in viewing and
-                    processing documents from the customers
-                  <li>Lead developer who took care of ui , backend and db</li>
-                  <li>Wrote independent apis</li>
-                  <li><strong>Tech Stack:</strong><br>
+              <h4>TCS - Full stack developer</h4>
+              <h5>2019 - Present</h5>
+              <p>
+                <em>UI Lead - Advanced Viewer</em>
+              </p>
+              <ul>
+                Xtrac is a document management tool which assists in viewing and
+                processing documents from the customers
+                <li>Lead developer who took care of ui , backend and db</li>
+                <li>Wrote independent apis</li>
+                <li><strong>Tech Stack:</strong><br>
                   <strong>UI:</strong> angular8, angular material, SASS, Protractor<br>
                   <strong>DB:</strong> Mongo<br>
-                 <strong> Backend:</strong> Nodejs</li>
-                </ul>
-              </div>
-              
+                  <strong> Backend:</strong> Nodejs</li>
+              </ul>
+            </div>
+
             <div class="resume-item">
-                <p>
-                  <em>CSAP -Crypto Assets Security Platform</em>
-                </p>
-                <ul>
-                    CSAP is a blockchain project that is intended to allocate securities, assets , stocks
-                    and warrants via private hyperledger blockchain network.
-                  <li>Full stack developer who took care of ui , backend and db</li>
-                  <li>Developed angular animations </li>
-                  <li>Developed User module and wrote independent apis</li>
-                  <li>Worked on the database creation and triggers</li>
-                  <li>Setup and learnt to code a hyperledger network with Golang</li>
-                  <li><strong>Tech Stack:</strong><br>
+              <p>
+                <em>CSAP -Crypto Assets Security Platform</em>
+              </p>
+              <ul>
+                CSAP is a blockchain project that is intended to allocate securities, assets , stocks
+                and warrants via private hyperledger blockchain network.
+                <li>Full stack developer who took care of ui , backend and db</li>
+                <li>Developed angular animations </li>
+                <li>Developed User module and wrote independent apis</li>
+                <li>Worked on the database creation and triggers</li>
+                <li>Setup and learnt to code a hyperledger network with Golang</li>
+                <li><strong>Tech Stack:</strong><br>
                   <strong>UI:</strong> angular8, angular material, flexbox, SASS, CSS3<br>
                   <strong>DB:</strong> MySQL, Postgres<br>
-                 <strong> Backend:</strong> Nodejs via sequalize</li>
-                </ul>
-              </div>
+                  <strong> Backend:</strong> Nodejs via sequalize</li>
+              </ul>
+            </div>
           </div>
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <h3 class="resume-title"></h3>
-              <div class="resume-item">
+            <div class="resume-item">
               <p>
                 <em>Tadpole</em>
               </p>
               <ul>
-                  Tadpole is a application to teach the younger generation about the essence of
-                  financial literacy. The goal of the project is to allocate real money to the kids in the
-                  family and train them on handling Money better.
+                Tadpole is a application to teach the younger generation about the essence of
+                financial literacy. The goal of the project is to allocate real money to the kids in the
+                family and train them on handling Money better.
                 <li>Full stack developer who took care of ui , backend and db</li>
                 <li>Developed apis independently along with the UI and db flow. </li>
-                
+
                 <li><strong>Tech Stack:</strong><br>
-                <strong>UI:</strong> angular2, ng2bootstrap, CSS3<br>
-                <strong>DB:</strong> MySQL<br>
-               <strong> Backend:</strong> Nodejs via sequalize</li>
+                  <strong>UI:</strong> angular2, ng2bootstrap, CSS3<br>
+                  <strong>DB:</strong> MySQL<br>
+                  <strong> Backend:</strong> Nodejs via sequalize</li>
               </ul>
             </div>
             <div class="resume-item">
@@ -416,57 +426,58 @@ box-shadow: 10px 10px 5px 0px rgba(173,164,173,1)!important;
                 <em>Engage</em>
               </p>
               <ul>
-                  Engage is a dynamic video services platform for a US Telecom giant. The platform
-                  generates dynamic audio, vtt files, transcript files and dynamic animations that are
-                  required for a video generation. It renders the audio and WEB VTT dynamically and is
-                  unique for each video. As and when the customer places an order, the video will get
-                  created for them along with the order details on a real time basis.
-                  This also include a URL Shortner service platform developed using express
-                <li><strong>Resusable component:</strong> Audio stitching in client end using blobs and arraybuffer.</li>
+                Engage is a dynamic video services platform for a US Telecom giant. The platform
+                generates dynamic audio, vtt files, transcript files and dynamic animations that are
+                required for a video generation. It renders the audio and WEB VTT dynamically and is
+                unique for each video. As and when the customer places an order, the video will get
+                created for them along with the order details on a real time basis.
+                This also include a URL Shortner service platform developed using express
+                <li><strong>Resusable component:</strong> Audio stitching in client end using blobs and arraybuffer.
+                </li>
                 <li>Integrates the dynamic audio and the animation in sync and templates this file
-                    for real time approach.Also ensures the vtts, transcripts are in sync with the
-                    video template.</li>
+                  for real time approach.Also ensures the vtts, transcripts are in sync with the
+                  video template.</li>
                 <li>Was much appreciated for the fast integration and reducing a lot
-                    of time and delivering ahead of time.</li>
+                  of time and delivering ahead of time.</li>
                 <li><strong>Lead UI developer:</strong> Created ui designs, mocks, and wireframes for each video
-                    use case and develops the page in consistent to that.</li>
+                  use case and develops the page in consistent to that.</li>
                 <li>Develops and fine tunes the url shortner algorithm and the real time video
-                    generation algorithm.</li>
+                  generation algorithm.</li>
                 <li>Developed an embeddable singleton library in ES6 for embedding the video in
-                    external pages. Received great amount of appreciation for writing a reusable
-                    and fully ES6 library.</li>
+                  external pages. Received great amount of appreciation for writing a reusable
+                  and fully ES6 library.</li>
               </ul>
             </div>
             <div class="resume-item">
-                <p>
-                  <em>OCE - Order Capture Engine</em>
-                </p>
-                <ul>
-                    A single order capture platform that captures all types of orders for the big US
-                    telecom client.
-                  <li>Handled 3 modules individually</li>
-                  <li><strong>Inbound call tracker:</strong> Real time tracking of Customer Service Representative
-                      (CSR) order calls</li>
-                  <li>Session management</li>
-                  <li><strong>Lead UI developer:</strong> Created ui designs, mocks, and wireframes for each video
-                      use case and develops the page in consistent to that.</li>
-                  <li><strong>Order details & Order update:</strong> Complex modules that runs on unique business
-                      and fraud rules.</li>
-                </ul>
-              </div>
-              <div class="resume-item">
-                  <p>
-                    <em>MCOE – Mobile Center of Excellence</em>
-                  </p>
-                  <ul>
-                      End to end performance management of client's mobile applications, involving
-                      analysis of numerous tools and synthetic monitoring
-                    <li>Interface with vendors in multi geographies to understand their tools and demo
-                        the knowledge gained to the client business partners.</li>
-                    <li>Multi party technical sessions involving client and vendors</li>
-                    <li>Created wiki docs for numerous performance monitoring tools</li>
-                  </ul>
-                </div>
+              <p>
+                <em>OCE - Order Capture Engine</em>
+              </p>
+              <ul>
+                A single order capture platform that captures all types of orders for the big US
+                telecom client.
+                <li>Handled 3 modules individually</li>
+                <li><strong>Inbound call tracker:</strong> Real time tracking of Customer Service Representative
+                  (CSR) order calls</li>
+                <li>Session management</li>
+                <li><strong>Lead UI developer:</strong> Created ui designs, mocks, and wireframes for each video
+                  use case and develops the page in consistent to that.</li>
+                <li><strong>Order details & Order update:</strong> Complex modules that runs on unique business
+                  and fraud rules.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <p>
+                <em>MCOE – Mobile Center of Excellence</em>
+              </p>
+              <ul>
+                End to end performance management of client's mobile applications, involving
+                analysis of numerous tools and synthetic monitoring
+                <li>Interface with vendors in multi geographies to understand their tools and demo
+                  the knowledge gained to the client business partners.</li>
+                <li>Multi party technical sessions involving client and vendors</li>
+                <li>Created wiki docs for numerous performance monitoring tools</li>
+              </ul>
+            </div>
           </div>
         </div>
 
@@ -494,6 +505,7 @@ box-shadow: 10px 10px 5px 0px rgba(173,164,173,1)!important;
               <!-- <li data-filter=".filter-java">Java</li> -->
               <!-- <li data-filter=".filter-dsa">Data Structures</li> -->
               <li data-filter=".filter-js">Javascript</li>
+              <li data-filter=".filter-html">HTML</li>
             </ul>
           </div>
         </div>
@@ -587,15 +599,26 @@ box-shadow: 10px 10px 5px 0px rgba(173,164,173,1)!important;
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a  target="_blank" href="https://angular-material-dashboard1.herokuapp.com/" title="Demo">Demo
+                <a target="_blank" href="https://angular-material-dashboard1.herokuapp.com/" title="Demo">Demo
                 </a>
-                <a  target="_blank" href="https://github.com/MeenakshiIyer/angular-material-dashboard" title="Code">Code
+                <a target="_blank" href="https://github.com/MeenakshiIyer/angular-material-dashboard" title="Code">Code
                 </a>
               </div>
               <div class="text-center">Angular Dashboard</div>
             </div>
           </div>
-
+          <div class="col-lg-4 col-md-6 portfolio-item filter-html">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a target="_blank" href="https://facebookui.herokuapp.com/" title="Demo">Demo
+                </a>
+                <a target="_blank" href="https://github.com/MeenakshiIyer/FacebookUI" title="Code">Code
+                </a>
+              </div>
+              <div class="text-center">Facebook UI</div>
+            </div>
+          </div>
           <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-angular">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
@@ -653,9 +676,9 @@ box-shadow: 10px 10px 5px 0px rgba(173,164,173,1)!important;
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-10.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a  target="_blank" href="https://javascript-mealsearch.herokuapp.com/" title="Demo"> Demo
+                <a target="_blank" href="https://javascript-mealsearch.herokuapp.com/" title="Demo"> Demo
                 </a>
-                <a  target="_blank" href="https://github.com/MeenakshiIyer/javascript-mealsearch" title="Code">Code
+                <a target="_blank" href="https://github.com/MeenakshiIyer/javascript-mealsearch" title="Code">Code
                 </a>
               </div>
               <div class="text-center">Meal Search</div>
@@ -665,27 +688,27 @@ box-shadow: 10px 10px 5px 0px rgba(173,164,173,1)!important;
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-11.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a  target="_blank" href="https://javascript-expensesheet.herokuapp.com/" title="Demo"> Demo
+                <a target="_blank" href="https://javascript-expensesheet.herokuapp.com/" title="Demo"> Demo
                 </a>
-                <a  target="_blank" href="https://github.com/MeenakshiIyer/javascript-expensesheet" title="Code">Code
+                <a target="_blank" href="https://github.com/MeenakshiIyer/javascript-expensesheet" title="Code">Code
                 </a>
               </div>
               <div class="text-center">Expense Sheet</div>
             </div>
           </div>
-          
-        <div class="col-lg-4 col-md-6 portfolio-item filter-js">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-12.jpg" class="img-fluid" alt="">
-            <div class="portfolio-links">
-              <a  target="_blank" href="https://js-exchange-rate.herokuapp.com/" title="Demo"> Demo
-              </a>
-              <a  target="_blank" href="https://github.com/MeenakshiIyer/js-exchange-rate" title="Code">Code
-              </a>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-js">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-12.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a target="_blank" href="https://js-exchange-rate.herokuapp.com/" title="Demo"> Demo
+                </a>
+                <a target="_blank" href="https://github.com/MeenakshiIyer/js-exchange-rate" title="Code">Code
+                </a>
+              </div>
+              <div class="text-center">Exchange Rate</div>
             </div>
-            <div class="text-center">Exchange Rate</div>
           </div>
-        </div>
         </div>
       </div>
       </div>
@@ -854,63 +877,29 @@ box-shadow: 10px 10px 5px 0px rgba(173,164,173,1)!important;
           <h2>Contact</h2>
           <h2>Interested in hiring me for your project?</h2>
 
-          <p>Looking for an experienced full-stack developer to build your web app or ship your software product? To start an
+          <p>Looking for an experienced full-stack developer to build your web app or ship your software product? To
+            start an
             initial chat, just drop me
             <a href="mailto:iyerbe@gmail.com">an email</a> or use the form on the contact page.</p>
         </div>
 
         <div class="row" data-aos="fade-in">
-<!-- 
+          <!-- 
           <div class="col-lg-5 d-flex align-items-stretch">
 
           </div> -->
 
-          <!--<div class="col-lg-12 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="form-row">
-                <div class="form-group col-md-6">
-                  <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars"
-                  />
-                  <div class="validate"></div>
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="name">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email"
-                  />
-                  <div class="validate"></div>
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="name">Subject</label>
-                <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject"
-                />
-                <div class="validate"></div>
-              </div>
-              <div class="form-group">
-                <label for="name">Message</label>
-                <textarea class="form-control" name="message" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
-                <div class="validate"></div>
-              </div>
-              <div class="mb-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center">
-                <button type="submit">Send Message</button>
-              </div>
-            </form>
-          </div>-->
-
+          
         </div>
 
       </div>
       <!-- Calendly badge widget begin -->
-<!-- Calendly inline widget begin -->
-<div class="calendly-inline-widget" data-url="https://calendly.com/meenakshib/30min" style="min-width:320px;height:630px;"></div>
-<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
-<!-- Calendly inline widget end --><!-- Calendly badge widget end -->
+      <!-- Calendly inline widget begin -->
+      <div class="calendly-inline-widget" data-url="https://calendly.com/meenakshib/30min"
+        style="min-width:320px;height:630px;"></div>
+      <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+      <!-- Calendly inline widget end -->
+      <!-- Calendly badge widget end -->
     </section>
     <!-- End Contact Section -->
 
@@ -945,7 +934,7 @@ box-shadow: 10px 10px 5px 0px rgba(173,164,173,1)!important;
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <!-- Template Main JS File -->
-<script src="assets/js/main.js"></script>
+  <script src="assets/js/main.js"></script>
 
 </body>
 
